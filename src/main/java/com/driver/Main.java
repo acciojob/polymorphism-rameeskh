@@ -10,22 +10,5 @@ public class Main {
     double ans3=p.product(3.2,4.5);
     System.out.println(ans3);
 }
-static class Product{
-    public Product(){
 
-    }
-    public int product(int x,int y){
-        return x*y;
-    }
-    public int product(int x,int y,int z){
-        return x*y*z;
-    }
-
-    public double product(double x,double y){
-        return  x*y;
-    }
-
-
-}
-    
   }
